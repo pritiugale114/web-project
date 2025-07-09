@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: cursive;
+}
+
+.header{
+    height: 120px; width: 100%;
+    background-color: orange;
+}
+.header .navbar{
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .navbar .links{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.header .navbar .links li{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.header .navbar .links li:hover{
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-underline-offset: 10px;
+}
+.banner{
+    height: 550px;
+    width: 100%;
+    background-color: yellow;
+    background-image: url(https://wallpaperaccess.com/full/258529.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.banner .content{
+    color: white;
+    text-align: center;
+}
+.banner h1{
+    font-size: 70px;
+    text-shadow: 3px 3px 4px orange;
+    padding-top: 30px;
+}
+.banner h3{
+    padding-left: 700px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.about{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .subAbout{
+    height: 450px;
+    width: 75%;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px 3px rgb(255, 174, 0);
+}
+.about .subAbout .image{
+    height: 450px;
+}
+.about .subAbout .content{
+    color: rgb(255, 255, 255);
+}
+.about .subAbout .content h1{
+    padding-top:30px;
+    text-align: center;
+    font-size: 40px;
+}
+.about .subAbout .content p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+.Services{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.BaUSoiBqqm4Lz-c0VE-VMwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Services .card{
+    height: 400px;
+    width: 250px;
+    background-color: white;
+
+}
+.Services .card:hover{
+    transform: translateY(-29px);
+    transition: 0.5s;
+}
+
+.Services .card p{
+    text-align: center;
+    padding-top: 20px;
+}
+ 
