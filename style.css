@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0%;
     padding: 0;
     font-family: cursive;
 }
 
-.header{
-    height: 120px; width: 100%;
+.header {
+    height: 120px;
+    width: 100%;
     background-color: orange;
 }
-.header .navbar{
+
+.header .navbar {
     background-color: black;
     color: white;
     height: 80px;
@@ -16,21 +18,25 @@
     align-items: center;
     justify-content: space-between;
 }
-.header .navbar .links{
+
+.header .navbar .links {
     display: flex;
     list-style: none;
     margin-right: 30px;
 }
-.header .navbar .links li{
+
+.header .navbar .links li {
     padding-left: 30px;
     font-size: 20px;
 }
-.header .navbar .links li:hover{
+
+.header .navbar .links li:hover {
     text-decoration: underline;
     text-decoration-color: orange;
     text-underline-offset: 10px;
 }
-.banner{
+
+.banner {
     height: 550px;
     width: 100%;
     background-color: yellow;
@@ -38,22 +44,25 @@
     background-position: right;
     background-size: cover;
 }
-.banner .content{
+
+.banner .content {
     color: white;
     text-align: center;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 70px;
     text-shadow: 3px 3px 4px orange;
     padding-top: 30px;
 }
-.banner h3{
+
+.banner h3 {
     padding-left: 700px;
     padding-top: 30px;
     font-size: 30px;
 }
 
-.about{
+.about {
     height: 700px;
     width: 100%;
     background-color: black;
@@ -61,32 +70,37 @@
     align-items: center;
     justify-content: center;
 }
-.about .subAbout{
+
+.about .subAbout {
     height: 450px;
     width: 75%;
     display: flex;
     border-radius: 30px;
     box-shadow: 0px 0px 40px 3px rgb(255, 174, 0);
 }
-.about .subAbout .image{
+
+.about .subAbout .image {
     height: 450px;
 }
-.about .subAbout .content{
+
+.about .subAbout .content {
     color: rgb(255, 255, 255);
 }
-.about .subAbout .content h1{
-    padding-top:30px;
+
+.about .subAbout .content h1 {
+    padding-top: 30px;
     text-align: center;
     font-size: 40px;
 }
-.about .subAbout .content p{
+
+.about .subAbout .content p {
     font-size: 20px;
     padding: 20px;
     text-align: justify;
     line-height: 35px;
 }
 
-.Services{
+.Services {
     height: 600px;
     width: 100%;
     background-image: url(https://tse4.mm.bing.net/th/id/OIP.BaUSoiBqqm4Lz-c0VE-VMwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
@@ -97,19 +111,68 @@
     justify-content: space-evenly;
 }
 
-.Services .card{
+.Services .card {
     height: 400px;
     width: 250px;
     background-color: white;
 
 }
-.Services .card:hover{
+
+.Services .card:hover {
     transform: translateY(-29px);
     transition: 0.5s;
 }
 
-.Services .card p{
+.Services .card p {
     text-align: center;
     padding-top: 20px;
 }
+
+.Services .card button {
+    padding: 5px 34px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0 0 3px 2px gray;
+}
+
+
+.ex{
+    text-align: center;
+    font-size: 40px;
+}
+
+.collection{
+    height: 640px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxParent{
+    height: 550px;
+    width: 90%;
+    background-color: rgb(227, 13, 1);
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 58px;
  
+}
+
+.boxParent .box{
+    height: 200px;
+    width: 250px;
+    border: 3px solid black;
+}
+
+.collection .boxParent .box img{
+    width: 250px;
+}
